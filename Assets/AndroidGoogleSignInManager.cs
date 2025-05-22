@@ -11,7 +11,7 @@ internal interface IGoogleSignInManager
 
 internal class AndroidGoogleSignInManager : IGoogleSignInManager
 {
-    private const string WEB_CLIENT_ID = "629535612254-micnl1rvk94bpf8ijoldeuvf8mtqevkk.apps.googleusercontent.com";
+    private const string WEB_CLIENT_ID = "";
     private readonly Google.GoogleSignInConfiguration configuration;
 
     public AndroidGoogleSignInManager()
